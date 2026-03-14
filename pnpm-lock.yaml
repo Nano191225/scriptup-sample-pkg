@@ -18,8 +18,8 @@ importers:
         specifier: 2.1.0-beta.1.26.3-stable
         version: 2.1.0-beta.1.26.3-stable(@minecraft/common@1.2.0)(@minecraft/server@2.6.0-beta.1.26.3-stable(@minecraft/common@1.2.0)(@minecraft/vanilla-data@1.26.2))
       '@nano191225/scriptup':
-        specifier: ^1.0.0
-        version: 1.1.0(typescript@5.9.3)
+        specifier: ^1.2.0
+        version: 1.2.0(typescript@5.9.3)
       tsdown:
         specifier: ^0.21.2
         version: 0.21.2(typescript@5.9.3)
@@ -93,8 +93,8 @@ packages:
   '@minecraft/vanilla-data@1.26.2':
     resolution: {integrity: sha512-nxACCFgbcE9D5Z5vRnl/AtJljat7yC4vKzZ/t87iHqdersZlDhBzUnfBDH4d1F6Le5vgdSEUIJwUJxKR+Yc3+w==}
 
-  '@nano191225/scriptup@1.1.0':
-    resolution: {integrity: sha512-Lv93vUjxQ9jW85rhOpaF37/50wg26YII9zdRmioIAQT7Tzs14HkhLJkmP0kyqxgeJw4OCV32MXYkf9DHqfy8gQ==}
+  '@nano191225/scriptup@1.2.0':
+    resolution: {integrity: sha512-WEftAAhIV3G9eXGgcYdkdDGuQH6iNMPY1VMdHkxvwN4P7ZfZ1xNeDsN+VNK1EU64JGB3/KQBZ608etLW6Vxc/Q==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -517,7 +517,7 @@ snapshots:
 
   '@minecraft/vanilla-data@1.26.2': {}
 
-  '@nano191225/scriptup@1.1.0(typescript@5.9.3)':
+  '@nano191225/scriptup@1.2.0(typescript@5.9.3)':
     dependencies:
       chalk: 5.6.2
       commander: 13.1.0
