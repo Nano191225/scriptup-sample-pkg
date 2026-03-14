@@ -11,3 +11,7 @@ Object.defineProperty(Player.prototype, "health", {
         return (this as Player).getComponent("health")?.currentValue;
     },
 });
+
+export function sum (a: number, b: number): number {
+    return a + b;
+}
