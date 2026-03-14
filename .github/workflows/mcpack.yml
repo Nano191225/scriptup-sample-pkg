@@ -32,12 +32,12 @@ jobs:
           node-version: "24"
           cache: "pnpm"
 
-      # - name: Install dependencies
-      #   run: |
-      #     pnpm i --frozen-lockfile
+      - name: Install dependencies
+        run: |
+          pnpm i --frozen-lockfile
           
-      # - name: Build
-      #   run: pnpm run build
+      - name: Build
+        run: pnpm run build
 
     ###   npm   ###
 
