@@ -12,8 +12,8 @@
   "types": "./dist/main.d.ts",
   "prepublishOnly": "node C:\\Users\\Nano\\Documents\\Rust\\scriptup\\dist\\index.js build --release && node .github/workflows/ensure-dts-export.js",
   "scripts": {
-    "build": "node C:\\Users\\Nano\\Documents\\Rust\\scriptup\\dist\\index.js build --release",
-    "watch": "node C:\\Users\\Nano\\Documents\\Rust\\scriptup\\dist\\index.js build --watch"
+    "build": "scriptup build --release",
+    "watch": "scriptup build --watch"
   },
   "dependencies": {},
   "devDependencies": {
