@@ -4,7 +4,7 @@
 		"name": "scriptup-sample-pkg-lib",
 		"description": "scriptup-sample-pkg-lib",
 		"uuid": "1acfab6e-3fb8-436d-8f1e-f7037d9ca7c4",
-		"version": "0.2.0",
+		"version": "0.3.0",
 		"min_engine_version": "1.26.3"
 	},
 	"metadata": {
