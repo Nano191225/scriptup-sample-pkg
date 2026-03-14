@@ -11,6 +11,7 @@
   "main": "./dist/main.js",
   "types": "./dist/main.d.ts",
   "prepublishOnly": "scriptup build --release && node .github/workflows/ensure-dts-export.js",
+  "repository": "https://github.com/nano191225/scriptup-sample-pkg.git",
   "scripts": {
     "build": "scriptup build --release",
     "watch": "scriptup build --watch"
